@@ -15,6 +15,7 @@ copy at http://www.freebsd.org/copyright/freebsd-license.html.
 
 #include <string>
 #include <vector>
+#include <mailio/export.hpp>
 
 
 
@@ -25,7 +26,7 @@ namespace mailio
 	/**
 	Mail as name and address.
 	**/
-	struct mail_address
+	struct MAILIO_EXPORT mail_address
 	{
 		/**
 		Name part of the mail.
@@ -80,7 +81,7 @@ namespace mailio
 	/**
 	Mail group with the name and members.
 	**/
-	struct mail_group
+	struct MAILIO_EXPORT mail_group
 	{
 		/**
 		Mail group name.
