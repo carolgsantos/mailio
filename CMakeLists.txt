@@ -45,3 +45,5 @@ install(TARGETS ${LIBNAME} ${DLLNAME}
 )
 
 include(cmake/doxy.cmake)
+
+include(cmake/examples.cmake)
